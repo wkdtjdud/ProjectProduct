@@ -8,13 +8,13 @@ namespace ProjectProduct
 {
     internal class Product
     {
-        public string Name { get; set; }
-        public int Price { get; set; }
+        public int Date { get; set; }
+        public string Menu { get; set; }
 
         public override string ToString()
         {
-            //감자: 500원
-            return Name + ": " + Price + "원";
+            //13일: 로제떡볶이
+            return Date + "일:" +  Menu;
         }
     }
 }

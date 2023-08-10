@@ -51,7 +51,7 @@ namespace ProjectProduct
         {
            var output = from item in input
                      
-                       orderby item.Date descending
+                       orderby item.Date ascending
                        select item;
             foreach (var item in output)
             {

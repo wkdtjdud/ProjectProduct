@@ -13,7 +13,7 @@ namespace ProjectProduct
 
         public override string ToString()
         {
-            //13일: 로제떡볶이
+            //13일: 로제떡볶이 
             return Date + "일:" +  Menu;
         }
     }
